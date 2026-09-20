@@ -9,6 +9,13 @@ class ProductController extends Controller
     public function index()
     {
         $products = \App\Models\Product::all();
-        return view('products.index');
+        return view('products.index', [
+            'products' => $products
+        ]);
+    }
+
+    public function create()
+    {
+        return view('products.create');
     }
 }
