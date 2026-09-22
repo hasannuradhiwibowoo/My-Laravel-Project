@@ -5,5 +5,5 @@
     <input type="number" placeholder="Harga Produk">
     <input type="number" placeholder="Stok Produk">
 
-    <button type="submit">Simpan</button>
+    <button type="submit">Submit</button>
 </form>
