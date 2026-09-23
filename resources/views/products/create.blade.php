@@ -11,11 +11,11 @@
     </div>
     <div>
         <label>Harga</label>
-        <input type="text" name="price">
+        <input type="number" name="price">
     </div>
     <div>
         <label>Stok</label>
-        <input type="text" name="stock">
+        <input type="number" name="stock">
     </div>
     <button type="submit">Simpan</button>
 </form>
