@@ -1,6 +1,6 @@
 <h1>Toko Sepatu</h1>
 
-@foreach ($products as $products)
+@foreach ($products as $product)
 <h2>{{ $product->name }}</h2>
 <p>{{ $product->category }}</p>
 <p>Rp {{ $product->price }}</p>
